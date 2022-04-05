@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nlp-app
-        image: webapp:latest
+        image: gcr.io/sentiment-346311/sentiment-webbapp@sha256:4f2dc517b4c6a77e2f8fab6f4fbd6ac4713fd02a28054fab54d71188641399e0
         # image: gcr.io/k8s-sent-deployment/myapp:v1
         ports:
         - containerPort: 5000
