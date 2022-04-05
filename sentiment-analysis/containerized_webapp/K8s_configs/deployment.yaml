@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nlp-app
-        image: containerized_webapp:latest
+        image: webapp:latest
         # image: gcr.io/k8s-sent-deployment/myapp:v1
         ports:
         - containerPort: 5000
